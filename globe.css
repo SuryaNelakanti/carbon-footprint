@@ -13,6 +13,7 @@ body, html {
   }
   header a{
     text-decoration: none;
+    color:#EB5E55;
   }
   footer{
     position: fixed;
