@@ -4,7 +4,52 @@ body, html {
   margin: 0;
   background-color: #fdf0d5;
   color: #EB5E55;
+  scroll-behavior: smooth;
   }
+  main{
+    position: relative;
+    z-index: 1;
+    background: #fdf0d5;
+  }
+  header a{
+    text-decoration: none;
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+    text-align: center;
+    z-index: -100;
+    background-color:  #2D3047;
+  }
+  .flex{
+    display: flex;
+    }
+  .flex > div{
+    width: 500px;
+    margin: 50px;
+    font-style: 'Alata', sans-serif;
+}
+.flex>div>ul{
+  list-style: none;
+}
+  footer a{
+    color: #1b998b;
+  }
+  h2.fo{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    color: #EB5E55;
+    margin-top: 30px;
+  }
+  p.fi{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    color: #ff9b71;
+  }
+
 nav{
   display: flex;
   flex-direction: row-reverse;
@@ -23,6 +68,14 @@ h2{
   margin-top: -300px;
   color: #EB5E55;
 }
+hr{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 1px solid black;
+}
+hr.dotted{
+  border: 1px dashed grey;
+}
 p{
   font-family: 'Abel',sans-serif;
   color: #231123;
@@ -30,7 +83,7 @@ p{
 .preind{
   width: 650px;
   margin: auto;
-  margin-bottom: 500px;
+  margin-bottom: 400px;
   font-family: 'Abel', sans-serif;
   color: #231123;
 }
