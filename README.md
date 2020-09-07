@@ -9,4 +9,4 @@ Enabled OAuth 2 for Google and Facebook login.<br>
 Passwords are salted and hashed before being sent to the database (Level 5 encryption).<br>
 Site is hosted on:<br>
 https://potato-ice.herokuapp.com/
-<br> <br><br>P.S. Node modules are not uploaded onto this github page.
+<br> <br><br>P.S. NodeJS modules are not uploaded onto this github page.
